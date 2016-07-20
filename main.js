@@ -32,6 +32,7 @@ function initialize () {
 
     mainWindow = new BrowserWindow(windowOptions)
     mainWindow.loadURL(path.join('file://', __dirname, '/index.html'))
+    mainWindow.webContents.openDevTools()
 
     // Launch fullscreen with DevTools open, usage: npm run debug
     if (debug) {
