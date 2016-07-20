@@ -5,7 +5,12 @@
   "description": "Electron interactive API demos",
   "private": true,
   "main": "main.js",
+  "build": {
+    "appId": "your.id",
+    "app-category-type": "your.app.category.type"
+  },
   "scripts": {
+    "b": "build --mac --dir",
     "start": "electron .",
     "dev": "electron . --debug",
     "lint": "standard",
