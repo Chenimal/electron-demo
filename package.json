@@ -41,6 +41,7 @@
     "chai": "^3.4.1",
     "chai-as-promised": "^5.1.0",
     "devtron": "^1.0.0",
+    "electron-builder": "^5.12.1",
     "electron-packager": "^7.0.1",
     "electron-prebuilt": "^1.2.6",
     "electron-windows-store": "^0.3.0",
